@@ -3,26 +3,60 @@
   <head>
       
     <title>Departmental Page</title>
+            
+ <style>
+          
       
-       <link href="../SiteA/css/siteA.css" type="text/css" rel="stylesheet">
+      .Twin{
+            animation-name: twin;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            text-align: center;
+            font-family: serif;
+            font-size: 200%;
+            
+        }
+        @keyframes twin {
+             0%{ background-color:gold;}
+            25%{ background-color: aquamarine;}
+            75%{background-color: red;}
+            100%{background-color: deepskyblue;}
+            
+            #Centre{
+                
+                margin: 100px;100px;
+                border: 100px;100px;
+            }
+            
+        }
+      
+      
+      
+      
+      </style>
+      
       
   </head>
     
-  <body id="landing">
+  <body class="Twin">
       
-    <h1>Departments of Centre College</h1>
+    <h1  id="Centre">Departments of Centre College</h1>
     
     <p>Come and see the adventure that awaits you at Centre College.</p>
     
-    <ul class="navigation">
+    
         
-    <li><a href="DivI/studioArt.html">Studio Art</a></li>
-      <li><a href="DivII/Economics.html">Economics</a></li>
-      <li><a href="DivII/Politics.html">Politics</a></li>
-      <li><a href="DivIII/ComputerScience.html">Computer Science</a></li>
-      <li><a href="DivIII/Mathematics.html">Mathematics</a></li>
+    <a href="DivI/studioArt.html">Studio Art</a>
+      <br>
+      <a href="DivII/Economics.html">Economics</a>
+      <br>
+      <a href="DivII/Politics.html">Politics</a>
+      <br>
+      <a href="DivIII/ComputerScience.html">Computer Science</a>
+      <br>
+      <a href="DivIII/Mathematics.html">Mathematics</a>
         
-    </ul>
+    
       
   </body>
     
