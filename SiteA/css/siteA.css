@@ -1,1 +1,57 @@
+.program {
+text-align: center; text-transform:uppercase;  font-style: italic;  text-decoration: underline;  font-size: 650%; }
 
+#Politics {
+text-align: center; text-transform: uppercase; background-image: url(https://www.centre.edu/wp-content/uploads/2020/08/08222020_Move-In-2.jpg); background-repeat: no-repeat; background-size: cover;
+color: aqua;}
+
+#StudioArt{ text-align: center; text-transform: uppercase; background-repeat: no-repeat; background-image: url(https://www.centre.edu/wp-content/uploads/2020/05/Wilson-07.jpg); background-size: cover;
+color:azure; }
+
+#Economics{
+text-align: center; text-transform: uppercase; background-repeat: no-repeat; background-size: cover; background-image: url(https://www.centre.edu/wp-content/uploads/2017/05/seal.jpg); color:cornflowerblue; }
+
+#Mathematics{
+text-align: center; text-transform: uppercase; background-repeat: no-repeat; background-size:cover; background-image: url(https://www.centre.edu/wp-content/uploads/2020/06/07022014_Math_Research_Team_33471.jpg);
+color: antiquewhite;}
+
+
+#ComputerScience{
+text-align: center;text-transform: uppercase; background-repeat: no-repeat; background-size:cover; background-image: url(https://www.centre.edu/wp-content/uploads/2020/05/2020-05-23_14.17.37.png) ;
+color:aquamarine;}
+
+table { font-family: monospace; width: 100%; font-size: 350%; align-self: center;}
+
+th{font-weight: 900; text-align: center; border: solid 3px ; margin: auto;}
+
+tbody { border: solid 2px;}
+
+td {border: solid;padding: 10px; 3px;}
+
+table:hover;{ background-color: blue;}
+
+
+a:link {
+color:darkcyan;
+text-decoration: none;}
+a:visited {
+color: black;}
+a:hover {
+color: deeppink;
+text-decoration: underline;}
+
+
+
+#landing {   
+    background-image: url(https://www.centre.edu/wp-content/uploads/2020/08/Best-386_PR-2021.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 200%;
+    text-align: center;}
+    
+    
+        
+.navigation {
+    margin: 3px;
+    text-align: left;
+}

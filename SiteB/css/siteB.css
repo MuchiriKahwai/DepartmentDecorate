@@ -1,1 +1,57 @@
+.program {
+text-align: center; text-transform:uppercase;  font-style: italic;  text-decoration: underline;  font-size: 650%; animation-name: anime;  animation-duration: 15s; animation-iteration-count: infinite; }
+@keyframes anime {
+    from{background-color: currentColor:}
+    to{background-color: black;}
+}
 
+#Politics {
+text-align: center; text-transform: uppercase; background-color: black; background-repeat: no-repeat; background-size: cover;
+color: white;}
+
+#StudioArt{ text-align: center; text-transform: uppercase; background-repeat: no-repeat; background-image: url(https://www.centre.edu/wp-content/uploads/2019/10/Northside-Mural_1.jpg); background-size: cover;
+color:floralwhite; }
+
+#Economics{
+text-align: center; text-transform: uppercase; background-repeat: no-repeat; background-size: cover; background-image: url(https://www.centre.edu/wp-content/uploads/2018/10/economicsconference-header-news.jpg); color:black; }
+
+#Mathematics{
+text-align: center; text-transform: uppercase; background-repeat: no-repeat; background-size:cover; background-image: url(https://www.centre.edu/wp-content/uploads/2018/06/socialjustice-news-header-1.jpg);
+color: lightcoral;}
+
+
+#ComputerScience{
+text-align: center;text-transform: uppercase; background-repeat: no-repeat; background-size:cover; background-image: url(https://www.centre.edu/wp-content/uploads/2020/05/2020-05-23_14.17.37.png) ;
+color:aquamarine;}
+
+table { font-family: monospace; width: 100%; font-size: 350%; align-self: center;}
+
+th{font-weight: 900; text-align: center; border: solid 3px ; margin: auto;}
+
+tbody { border: solid 2px;}
+
+td {border: solid;padding: 10px; 3px;}
+
+table:hover;{ background-color: blue;}
+
+
+a:link {
+color: aqua;
+text-decoration: none;}
+a:visited {
+color: black;}
+a:hover {
+color: deeppink;
+text-decoration: underline;}
+
+  
+}
+
+
+  .navigation {
+    
+    background-color: brown;
+    
+    
+    
+}
